@@ -1,6 +1,7 @@
 # house-bob
 
-[![Build Status](https://travis-ci.org/peterwade153/house-bob.svg?branch=master)](https://travis-ci.org/peterwade153/house-bob)
+Original [![Build Status](https://travis-ci.org/peterwade153/house-bob.svg?branch=master)](https://travis-ci.org/peterwade153/house-bob)
+This fork [![Build Status](https://travis-ci.org/raydleemsc/house-bob.svg?branch=master)](https://travis-ci.org/raydleemsc/house-bob)
 
 ### Description
 A Django, Scrapy application which pulls properties data .i.e houses and offices available for rent in Kampala and neighbouring districts.
