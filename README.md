@@ -1,11 +1,12 @@
 # house-bob
 
 Original [![Build Status](https://travis-ci.org/peterwade153/house-bob.svg?branch=master)](https://travis-ci.org/peterwade153/house-bob)
+
 This fork [![Build Status](https://travis-ci.org/raydleemsc/house-bob.svg?branch=master)](https://travis-ci.org/raydleemsc/house-bob)
 
 ### Description
 A Django, Scrapy application which pulls properties data .i.e houses and offices available for rent in Kampala and neighbouring districts.
-The Scraped data containing property price, location, district, bedrooms, bathrooms, status whether its available for rent or sale and agent details is then saved in a Postgres database.
+The Scraped data containing property price, location, district, bedrooms, bathrooms, status whether its available for rent or sale and agent details is then saved in a MySQL database.
 
 Its uses Django 3.0 and Scrapy 2.0
 
@@ -15,10 +16,10 @@ Create a virtual env and activate it.
 
 Clone the project
 <pre>
-git clone https://github.com/peterwade153/house-bob.git
+git clone https://github.com/raydleemsc/house-bob.git
 </pre>
 
-Create a Postgres Database.
+Create a MySQL Database.
 
 
 Create a `.env` file from the `.env.example` and replace with the actual values.
@@ -26,7 +27,7 @@ Create a `.env` file from the `.env.example` and replace with the actual values.
 
 Install Dependencies.
 <pre>
-pip install requirements.txt
+pip install -r requirements.txt
 </pre>
 
 Run migrations with the command below
@@ -79,3 +80,5 @@ make celery-beat
 
 
 Developer :- Peter, reach him at `peterwade153@gmail.com`.
+
+Updater :- Ray, reach him at `raydlee.msc@gmail.com`.
