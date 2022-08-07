@@ -11,7 +11,9 @@ class PropertiesSpider(CrawlSpider):
     name = "properties"
     allowed_domains = ["realestatedatabase.net"]
     start_urls = [
-        "https://realestatedatabase.net/FindAHouse/houses-for-rent-in-kampala-uganda.aspx?Title=Houses+for+rent+in+kampala"
+        # "https://realestatedatabase.net/FindAHouse/houses-for-rent-in-kampala-uganda.aspx?Title=Houses+for+rent+in+kampala"
+        # ,
+        "http://realestatedatabase.net/FindAHouse/Houselist.aspx?RentSale=Rent&HouseCategory=12&Title=Town+House+for+rent#ContentSection"
     ]
 
     rules = (
