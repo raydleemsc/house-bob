@@ -11,7 +11,6 @@ services:
   - mysql
 
 before_script:
-  - mysql -u root -e "CREATE DATABASE test_db;"
   - mysql -u root -e "CREATE USER 'test_user'@'%' IDENTIFIED BY 'test_user';"
   - mysql -u root -e "GRANT ALL ON test_db.* TO 'test_user'@'%';"
 
