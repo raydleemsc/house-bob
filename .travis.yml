@@ -16,7 +16,7 @@ before_script:
   - mysql -u root -e "GRANT ALL ON test_db.* TO 'test_user'@'%';"
 
 env:
-  - SECRET_KEY=this-should-be-secret DATABASE_NAME=test_db DATABASE_USER=test_user DATABASE_PASSWORD=test_user DATABASE_HOST=localhost DATABASE_PORT=3306
+  - SECRET_KEY=this-should-be-secret DATABASE_NAME=db DATABASE_USER=test_user DATABASE_PASSWORD=test_user DATABASE_HOST=localhost DATABASE_PORT=3306
 
 script:
   - python manage.py test
